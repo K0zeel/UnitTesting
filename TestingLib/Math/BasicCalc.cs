@@ -81,7 +81,7 @@ namespace TestingLib.Math
         }
 
         //Проверяет, является ли число совершенным (число, которое равно сумме всех своих собственных делителей, кроме себя)
-        public bool IsPerfectNumber(int n)
+        public bool IsPerfectNumber(int n)//Надо
         {
             if (n < 1)
                 throw new ArgumentOutOfRangeException();
